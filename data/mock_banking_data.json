@@ -1,0 +1,71 @@
+{
+  "customer": {
+    "customer_id": "CUST_789456",
+    "name": "Vachan U S",
+    "phone": "+91-9876543210",
+    "email": "vachan.customer@example.com",
+    "kyc_status": "VERIFIED"
+  },
+  "accounts": [
+    {
+      "account_number": "ACC-100234891",
+      "account_type": "Savings Account",
+      "currency": "INR",
+      "available_balance": 184500.50,
+      "branch": "Bengaluru Main Branch",
+      "ifsc": "YLWB0001001"
+    }
+  ],
+  "loans": [
+    {
+      "loan_id": "LN001",
+      "loan_type": "Home Loan",
+      "principal_amount": 4500000.0,
+      "outstanding_balance": 3780450.0,
+      "interest_rate": 8.4,
+      "emi_amount": 42150.0,
+      "tenure_months": 240,
+      "remaining_emis": 172,
+      "next_due_date": "2026-12-05",
+      "status": "Active"
+    },
+    {
+      "loan_id": "LN002",
+      "loan_type": "Personal Loan",
+      "principal_amount": 500000.0,
+      "outstanding_balance": 182300.0,
+      "interest_rate": 11.5,
+      "emi_amount": 16200.0,
+      "tenure_months": 36,
+      "remaining_emis": 14,
+      "next_due_date": "2026-12-10",
+      "status": "Active"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "transaction_id": "TXN_99812401",
+      "timestamp": "2026-11-10T14:32:00Z",
+      "description": "Auto-debit Home Loan EMI (LN001)",
+      "amount": -42150.0,
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "transaction_id": "TXN_99812402",
+      "timestamp": "2026-11-05T10:15:22Z",
+      "description": "Salary Credit - Synapx",
+      "amount": 125000.0,
+      "type": "CREDIT",
+      "status": "SUCCESS"
+    },
+    {
+      "transaction_id": "TXN_99812403",
+      "timestamp": "2026-11-02T19:40:11Z",
+      "description": "UPI Payment - Grocery",
+      "amount": -3450.0,
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    }
+  ]
+}
