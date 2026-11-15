@@ -6,6 +6,7 @@
 
 **A next-generation conversational banking assistant powered by Generative AI, intelligent intent routing, and real-time backend API integrations.**
 
+[![CI Tests](https://img.shields.io/github/actions/workflow/status/vachan18/Gen-AI-banking-agent/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI%20Tests)](https://github.com/vachan18/Gen-AI-banking-agent/actions/workflows/ci.yml)
 [![Live Bot Demo](https://img.shields.io/badge/Live_Bot-Yellow.ai-FFC72C?style=for-the-badge&logo=probot&logoColor=black)](https://cloud.yellow.ai/liveBot/x1774959469287?region=r0)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Generative AI](https://img.shields.io/badge/Generative_AI-Yellow.ai_LLM-4285F4?style=for-the-badge)](https://yellow.ai)
