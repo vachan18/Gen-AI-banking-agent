@@ -7,7 +7,7 @@ and webhook calls for the Yellow.ai GenAI Banking Assistant.
 import json
 import logging
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from flask import Flask, jsonify, request
 
 logging.basicConfig(
@@ -36,7 +36,7 @@ def index():
     return jsonify({
         "service": "Yellow.ai Gen AI Banking Assistant API",
         "status": "online",
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "endpoints": [
             "/api/health",
             "/api/loans",
